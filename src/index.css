@@ -1,0 +1,137 @@
+/* @font-face {
+    font-family: 'fontGame';
+    src: url('../font/Pony.ttf');
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-image: url('/img/bgmovie.jpg'); /* Iron Man background */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+.bookingMovie {
+    font-family: 'fontGame', sans-serif;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+.ghe{
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    transition: all 0.2s;
+}
+
+.ghe:hover {
+    background: orange;
+    color: black;
+}
+
+.rowNumber{
+    width: 45px;
+    height: 35px;
+    background: none;
+    border:none;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    color: yellow;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+.firstChar{
+    color: yellow;
+    font-size: 25px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+
+.screen{
+    border-bottom: 50px solid rgb(255, 159, 95);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 80%;
+    filter: drop-shadow(0px 10px 10px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto 30px auto;
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange;
+    background: orange;
+    color: #000;
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109) !important;
+    border: 3px solid rgb(109, 238, 109) !important;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.table-bordered {
+    border: 2px solid white;
+    width: 100%;
+    color: white;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-bordered th {
+    background: rgba(255,255,255,0.2);
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
